@@ -7,7 +7,7 @@ The SINGA:PURA dataset is a strongly-labelled polyphonic urban sound dataset wit
 # Accessing the dataset
 
 - 🚧 [via Soundata](https://github.com/soundata/soundata) 
-- 🚧 [Labelled subset via Zenodo]()
+- ✅ [Labelled subset via Zenodo](https://zenodo.org/record/5645825)
 - ✅ [Full dataset including unlabelled subset via DR-NTU](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/Y8UQ6F)
 
 
