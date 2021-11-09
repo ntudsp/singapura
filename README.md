@@ -28,6 +28,9 @@ example_clip = dataset.choice_clip()  # choose a random example clip
 print(example_clip)  # see the available data
 ```
 
+## Documentation
+https://soundata--86.org.readthedocs.build/en/86/source/quick_reference.html
+
 # Accessing raw dataset
 
 - ✅ [Labelled subset via Zenodo](https://zenodo.org/record/5645825)
