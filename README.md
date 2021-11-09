@@ -5,15 +5,36 @@ The SINGA:PURA dataset is a strongly-labelled polyphonic urban sound dataset wit
 
 > K. Ooi, K. N. Watcharasupat, S. Peksi, F. A. Karnapi, Z.-T. Ong, D. Chua, H.-W. Leow, L.-L. Kwok, X.-L. Ng, Z.-A. Loh, W.-S. Gan, "A Strongly-Labelled Polyphonic Dataset of Urban Sounds with Spatiotemporal Context," in Proceedings of the 13th Asia Pacific Signal and Information Processing Association Annual Summit and Conference, 2021. [[paper]](https://arxiv.org/abs/2111.02006)
 
-# Accessing the dataset
+# Accessing via Soundata
+
+🚧 [Full access via Soundata is coming soon!](https://github.com/soundata/soundata/pull/86) 
+
+## (Workaround) Installation
+```console
+git clone https://github.com/karnwatcharasupat/soundata.git
+cd soundata
+pip install .
+```
+
+## (Workaround) Usage
+```python
+import soundata
+
+dataset = soundata.initialize('singapura')
+dataset.download()  # download the dataset
+dataset.validate()  # validate that all the expected files are there
+
+example_clip = dataset.choice_clip()  # choose a random example clip
+print(example_clip)  # see the available data
+```
+
+# Accessing raw dataset
 
 - ✅ [Labelled subset via Zenodo](https://zenodo.org/record/5645825)
 - ✅ [Full dataset including unlabelled subset via DR-NTU](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/Y8UQ6F)
-- 🚧 [via Soundata (coming soon!)](https://github.com/soundata/soundata) 
-
 
 # License
-This dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (a human-readable summary is available at https://creativecommons.org/licenses/by-sa/4.0/ and the legal document for the license is available at https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Creative Commons Attribution-ShareAlike 4.0 International.
 
 # How to Cite
 ```bibtex
