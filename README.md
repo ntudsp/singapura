@@ -7,16 +7,15 @@ The SINGA:PURA dataset is a strongly-labelled polyphonic urban sound dataset wit
 
 # Accessing via Soundata
 
-🚧 [Full access via Soundata is coming soon!](https://github.com/soundata/soundata/pull/86) 
+🆕 SINGA:PURA is now accessible via [soundata](https://github.com/soundata/soundata)!
 
-## (Workaround) Installation
-```console
-git clone https://github.com/karnwatcharasupat/soundata.git
-cd soundata
-pip install .
+## Installation
+Requires `soundata v0.1.1` and above.
+```
+pip install soundata --upgrade
 ```
 
-## (Workaround) Usage
+## Usage
 ```python
 import soundata
 
@@ -29,7 +28,7 @@ print(example_clip)  # see the available data
 ```
 
 ## Documentation
-https://soundata--86.org.readthedocs.build/en/86/source/quick_reference.html
+https://soundata.readthedocs.io/en/stable/source/soundata.html#module-soundata.datasets.singapura
 
 # Accessing raw dataset
 
